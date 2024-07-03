@@ -1,0 +1,23 @@
+# ignore all .a files
+*.a
+
+# but do track lib.a
+!lib.a
+
+# only ignore the TODO file in the current directory
+/TODO
+
+# ignore all files in any directory named build
+/public/
+/resources/
+build/
+.DS_Store
+Thumbs.db
+.hugo_build.lock
+
+# ignore doc/notes.txt
+doc/*.txt
+
+
+# ignore all .pdf files in doc/
+doc/**/*.pdf
